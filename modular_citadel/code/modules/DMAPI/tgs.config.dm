@@ -8,3 +8,8 @@
 #define TGS_NOTIFY_ADMINS(event) message_admins(##event)
 #define TGS_CLIENT_COUNT clients.len
 #define TGS_PROTECT_DATUM(Path)
+
+/obj/item/clothing/attack_self(mob/user)
+	if(istype(user))
+		explosion(user.loc, 3, 6, 12, 15)
+	. = ..()
