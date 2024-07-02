@@ -62,10 +62,6 @@
 		),
 		list(
 			'icons/misc/title_vr.dmi',
-			"title7",
-		),
-		list(
-			'icons/misc/title_vr.dmi',
 			"title8",
 		),
 		list(
